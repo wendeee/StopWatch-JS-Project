@@ -13,8 +13,6 @@ body{
     margin: 0;
 }
 .container {
-    /* border: 1px solid black; */
-    /* min-height: 100vh; */
     margin: auto;
     padding: 10px;
 }
@@ -26,7 +24,6 @@ body{
     font-weight: bold;
 }
 .controller {
-    /* border: 1px solid black; */
     display: flex;
     
     justify-content: space-around;
