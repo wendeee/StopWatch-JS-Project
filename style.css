@@ -24,11 +24,12 @@ body{
     font-weight: bold;
 }
 .controller {
-    display: flex;
     
-    justify-content: space-around;
+    display: block;
 }
+
 .start, .stop, .reset{
+    margin: 10px;
     border: 1px solid black;
     padding: 20px;
     background-color: black;

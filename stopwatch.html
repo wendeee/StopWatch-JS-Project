@@ -54,7 +54,11 @@
             clearInterval(counter);
             counter = false;
             min = 0, s = 0, ms = 0;
-            time.textContent = '00:00:00'
+            // time.textContent = '00:00:00';
+            min = String(min).padStart(2, "0");
+            s = String(s).padStart(2, "0");
+            ms = String(ms).padStart(2, "0");
+            time.textContent = min + ":" + s + ":" + ms;
 
         })
 
